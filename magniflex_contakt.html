@@ -21,157 +21,206 @@
 <body>
 	<div class="wrapper">
 
-	<header id="header">
-		<h1 class="logo-header">
-			<a href="index.html"><img src="img/logo-header.png" alt="logo"></a>
-		</h1>
-		<div class="phone">
-			<ul>
-				<li>Magniflex в Киеве:</li>
-				<li>life:<span>093 329 69 99</span></li>
-			</ul>
-			<ul>
-				<li>Vodafone:<span>050 710 10 07</span></li>
-				<li>Kyivstar:<span>067 90 60 330</span></li>
-			</ul>
-		</div>
-	</header>
-
-	<nav id="nav">
-		<ul class="nav-list">
-			<li class="nav-list_item">
-				<a href="magniflex_mattress.html" class="icon">Матрасы Magniflex<span class="icon"></span></a>
-				<ul class="dropdown">
-					<li><a href="magniflex_pratico.html">Magniflex Pratico</a></li>
-					<li><a href="#">Magniflex Merinos</a></li>
-					<li><a href="#">Magniflex Waterlattex</a></li>
-					<li><a href="#">Magniflex Waterlatex Merinos</a></li>
-					<li><a href="#">Magniflex Naturcomfort</a></li>
-					<li><a href="#">Magniflex Duoform</a></li>
-					<li><a href="#">Magniflex Dualcomfort</a></li>
-					<li><a href="#">Magniflex Fresh Touch</a></li>
-					<li><a href="#">Magniflex Dual Comfort Anniversary</a></li>
-					<li><a href="#">Magniflex Armonia Memoform Dual</a></li>
+		<!-- HEADER -->
+		<header id="header">
+			<h1 class="logo-header">
+				<a href="index.html"><img src="img/logo-header.png" alt="logo"></a>
+			</h1>
+			<div class="phone">
+				<ul>
+					<li>Magniflex в Киеве:</li>
+					<li>Life:<span>093 329 69 99</span></li>
 				</ul>
-			</li>
-			<li class="nav-list_item">
-				<a href="magniflex_pillows.html">Подушки Magniflex<span class="icon"></span></a>
-				<ul class="dropdown">
-					<li><a href="#">Стандартная</a></li>
-					<li><a href="#">Волнообразная</a></li>
-					<li><a href="#">Массажная</a></li>
-					<li><a href="#">Comfort</a></li>
-				</ul>
-			</li>
-			<li class="nav-list_item">
-				<a href="#">О компании Magniflex<span class="icon"></span></a>
-				<ul class="dropdown">
-					<li><a href="#">Сертификаты</a></li>
-					<li><a href="magniflex_materials.html">Материалы Magniflex</a></li>
-				</ul>
-			</li>
-			<li class="nav-list_item">
-				<a href="magniflex_materials.html">Материалы Magniflex</a>
-			</li>
-			<li class="nav-list_item ">
-				<a href="../magniflex_contakt.html">Контакты</a>
-			</li>
-		</ul>
-	</nav>
-
-	<content>
-		<section class="contacts">
-			<h2>Контакты Magniflex - в Киеве</h2>
-			<address>
-				<h5>Выставочный зал:</h5>
-				<p>г. Киев ул. Красноткацкая 44а<br>салон магазин "Катран" 2 этаж</p>
-				<h5>Время работы:</h5>
-				<p>Пн-Пт с 10:00 до 19:00<br>Сб-Вс с 10:00 до 17:00</p>
-			</address>
-			<div class="contacts-descr">
-				<h5>На выставке представлены все модели матрасов коллекции Magniflex.</h5>
-				<ul class="contacts-descr_list">
-					<li>Получить консультацию относительно продукции.</li>
-					<li>Заказать товар или уточнить стоимость и его наличие на складе.</li>
-				</ul>
-				<ul class="contacts-phone">
-					<li class="contacts-phone_item">
-						<ul>
-							<li>Life:</li>
-							<li>Vodafone:</li>
-							<li>Kyivstar:</li>
-						</ul>
-					</li>
-					<li class="contacts-phone_item">
-						<ul>
-							<li>093 329 69 99</li>
-							<li>050 710 10 07</li>
-							<li>067 90 60 330</li>
-						</ul>
-					</li>
-					<li class="contacts-phone_item email"><a href="#">magniflexbiz@ukr.net</a></li>
+				<ul>
+					<li>Vodafone:<span>050 710 10 07</span></li>
+					<li>Kyivstar:<span>067 90 60 330</span></li>
 				</ul>
 			</div>
-			<div id="contacts-map"></div>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgL0DPqN8kAL0_C_mojdo3hfjdglGZKqk&amp;v=3.exp"></script>
-			<script>
+		</header>
+		<!-- HEADER END-->
 
-				function initialize() {
-					var myLatlng = new google.maps.LatLng(50.45758, 30.64444);
+		<!-- NAVIGATION -->
+		<a href="#" id="touch-menu" class="mobile-menu"><i class="icon-hamburger"></i>Меню<i class="icon-dots"></i></a>
+		<nav id="nav">
+		    <ul class="menu-list">
+		        <li class="menu-list_item">
+		            <a href="magniflex_mattress.html" class="menu-list_link">Матрасы Magniflex<span class="icon"></span></a>
+		            <ul class="sub-menu">
+		                <!--<li><a href="magniflex_mattress.html">Все матрасы Magniflex</a></li>-->
+		                <li><a href="magniflex_pratico.html">Magniflex Pratico</a></li>
+		                <li><a href="#">Magniflex Merinos</a></li>
+		                <li><a href="#">Magniflex Waterlattex</a></li>
+		                <li><a href="#">Magniflex Waterlatex Merinos</a></li>
+		                <li><a href="#">Magniflex Naturcomfort</a></li>
+		                <li><a href="#">Magniflex Duoform</a></li>
+		                <li><a href="#">Magniflex Dualcomfort</a></li>
+		                <li><a href="#">Magniflex Fresh Touch</a></li>
+		                <li><a href="#">Magniflex Dual Comfort Anniversary</a></li>
+		                <li><a href="#">Magniflex Armonia Memoform Dual</a></li>
+		            </ul>
+		        </li>
+		        <li class="menu-list_item">
+		            <a href="magniflex_pillows.html" class="menu-list_link">Подушки Magniflex<span class="icon"></span></a>
+		            <ul class="sub-menu">
+		                <!--<li><a href="magniflex_pillows.html">Все подушки Magniflex</a></li>-->
+		                <li><a href="magniflex_standard.html">Стандартная</a></li>
+		                <li><a href="#">Волнообразная</a></li>
+		                <li><a href="#">Массажная</a></li>
+		                <li><a href="#">Comfort</a></li>
+		            </ul>
+		        </li>
+		        <li class="menu-list_item">
+		            <a href="magniflex_company.html" class="menu-list_link">О компании Magniflex<span class="icon"></span></a>
+		            <ul class="sub-menu">
+		                <li><a href="magniflex_company1.html">Сертификаты</a></li>
+		            </ul>
+		        </li>
+		        <li class="nav-list_item">
+		            <a href="magniflex_materials.html" class="menu-list_link">Материалы Magniflex</a>
+		        </li>
+		        <li class="nav-list_item ">
+		            <a href="magniflex_contakt.html" class="menu-list_link">Контакты</a>
+		        </li>
+		    </ul>
+		</nav>
+		<!-- NAVIGATION END-->
+		<!--<a id="touch-menu" class="mobile-menu" href="#">-->
+		<!--<i class="icon-reorder"></i>-->
+		<!--Меню-->
+		<!--</a>-->
+		<!--<nav>-->
+		<!--<ul class="menu">-->
+		<!--<li>-->
+		<!--<a href="#"><i class="icon-home"></i>Главная</a>-->
+		<!--<ul class="sub-menu">-->
+		<!--<li><a href="#">Подменю 1</a></li>-->
+		<!--<li><a href="#">Подменю 2</a></li>-->
+		<!--<li><a href="#">Подменю 3</a></li>-->
+		<!--</ul>-->
+		<!--</li>-->
+		<!--<li>-->
+		<!--<a  href="#"><i class="icon-user"></i>О нас</a>-->
+		<!--</li>-->
+		<!--<li>-->
+		<!--<a  href="#"><i class="icon-camera"></i>Портфолио</a>-->
+		<!--<ul class="sub-menu">-->
+		<!--<li>-->
+		<!--<a href="#">Подменю 1</a>-->
+		<!--</li>-->
+		<!--<li>-->
+		<!--<a href="#">Уровень 3 меню</a>-->
+		<!--<ul>-->
+		<!--<li><a href="#">Подменю 4</a></li>-->
+		<!--<li><a href="#">Подменю 5</a></li>-->
+		<!--<li><a href="#">Подменю 6</a></li>-->
+		<!--</ul>-->
+		<!--</li>-->
+		<!--</ul>-->
+		<!--</li>-->
+		<!--<li>-->
+		<!--<a  href="#"><i class="icon-bullhorn"></i>Блог</a>-->
+		<!--</li>-->
+		<!--<li>-->
+		<!--<a  href="#"><i class="icon-envelope-alt"></i>Контакты</a>-->
+		<!--</li>-->
+		<!--</ul>-->
+		<!--</nav>-->
 
-					var mapOptions = {
-						zoom: 17,
-						center: myLatlng,
-						disableDefaultUI: true,
-						mapTypeId: google.maps.MapTypeId.ROADMAP,
-						styles: [
-						{
-							"featureType": "poi",
-							"elementType": "all",
-							"stylers": [
-								{
-									"visibility": "off"
-								}
-							]
-						}]
+		<!-- CONTENT -->
+		<content>
+			<section class="contacts">
+				<h2>Контакты Magniflex - в Киеве</h2>
+				<address>
+					<h5>Выставочный зал:</h5>
+					<p>г. Киев ул. Красноткацкая 44а<br>салон магазин "Катран" 2 этаж</p>
+					<h5>Время работы:</h5>
+					<p>Пн-Пт с 10:00 до 19:00<br>Сб-Вс с 10:00 до 17:00</p>
+				</address>
+				<div class="contacts-descr">
+					<h5>На выставке представлены все модели матрасов коллекции Magniflex.</h5>
+					<ul class="contacts-descr_list">
+						<li>Получить консультацию относительно продукции.</li>
+						<li>Заказать товар или уточнить стоимость и его наличие на складе.</li>
+					</ul>
+					<ul class="contacts-phone">
+						<li class="contacts-phone_item">
+							<ul>
+								<li>Life:</li>
+								<li>Vodafone:</li>
+								<li>Kyivstar:</li>
+							</ul>
+						</li>
+						<li class="contacts-phone_item">
+							<ul>
+								<li>093 329 69 99</li>
+								<li>050 710 10 07</li>
+								<li>067 90 60 330</li>
+							</ul>
+						</li>
+						<li class="contacts-phone_item email"><a href="mailto:magniflexbiz@ukr.net">magniflexbiz@ukr.net</a></li>
+					</ul>
+				</div>
+				<div id="contacts-map"></div>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgL0DPqN8kAL0_C_mojdo3hfjdglGZKqk&amp;v=3.exp"></script>
+				<script>
+
+					function initialize() {
+						var myLatlng = new google.maps.LatLng(50.45758, 30.64444);
+
+						var mapOptions = {
+							zoom: 17,
+							center: myLatlng,
+							disableDefaultUI: true,
+							mapTypeId: google.maps.MapTypeId.ROADMAP,
+							styles: [
+							{
+								"featureType": "poi",
+								"elementType": "all",
+								"stylers": [
+									{
+										"visibility": "off"
+									}
+								]
+							}]
+						}
+
+					var map = new google.maps.Map(document.getElementById('contacts-map'), mapOptions);
+
+					//Add Marker
+					var magniflexMarker = new google.maps.Marker({
+				    position: {lat: 50.45758, lng: 30.64444},
+				    map: map,
+				    title:"Салон магазин Катран 2 этаж",
+				    icon: 'img/map-marker.png'
+				  });
+
+					//Resize Function
+					google.maps.event.addDomListener(window, "resize", function() {
+						var center = map.getCenter();
+						google.maps.event.trigger(map, "resize");
+							map.setCenter(center);
+						});
 					}
+					google.maps.event.addDomListener(window, 'load', initialize);
+				</script>
+			</section>
+			<section class="contacts-attention">
+				<h2>Просим обратить особое ВНИМАНИЕ!</h2>
+				<p>Матрас, в соответствии с "Законом о защите прав потребителей", является постельной принадлежностью, поэтому после вскрытия упаковки возврату или обмену - не подлежит. Если же упаковка не была вскрыта, Вы можете отказаться от поставленного нами товара. Обмен и возврат товара надлежащего качества, в заводской вакуумной упаковке может проводиться в течение 14 дней со дня покупки или непосредственно в момент доставки.</p>
+				<p>В случае обмена и возврата товара надлежащего качества, в заводской вакуумной упаковке Вы оплачиваете расходы за забор товара курьером (по Киеву - 50 грн., в пригород Киева - оговоренная цена, из регионов Украины - по прайсу компании-перевозчика + 25 грн. по Киеву) и подъем (спуск)   габаритных грузов на (с) этаж(а).</p>
+				<p>Все действия происходят в соответствии с "Законом о защите прав потребителей".</p>
+				<p>В случае если Вы откажетесь от покупки на месте, стоимость доставки ОПЛАЧИВАЕТСЯ (по Киеву - 50 грн., в пригород Киева - оговоренная цена, из регионов Украины - по прайсу компании-перевозчика + 25 грн. по Киеву).</p>
+			</section>
+		</content>
+		<!-- CONTENT END-->
+	</div>
 
-				var map = new google.maps.Map(document.getElementById('contacts-map'), mapOptions);
-
-				//Add Marker
-				var magniflexMarker = new google.maps.Marker({
-			    position: {lat: 50.45758, lng: 30.64444},
-			    map: map,
-			    title:"Салон магазин Катран 2 этаж",
-			    icon: 'img/map-marker.png'
-			  });
-
-				//Resize Function
-				google.maps.event.addDomListener(window, "resize", function() {
-					var center = map.getCenter();
-					google.maps.event.trigger(map, "resize");
-						map.setCenter(center);
-					});
-				}
-				google.maps.event.addDomListener(window, 'load', initialize);
-			</script>
-		</section>
-		<section class="contacts-attention">
-			<h2>Просим обратить особое ВНИМАНИЕ!</h2>
-			<p>Матрас, в соответствии с "Законом о защите прав потребителей", является постельной принадлежностью, поэтому после вскрытия упаковки возврату или обмену - не подлежит. Если же упаковка не была вскрыта, Вы можете отказаться от поставленного нами товара. Обмен и возврат товара надлежащего качества, в заводской вакуумной упаковке может проводиться в течение 14 дней со дня покупки или непосредственно в момент доставки.</p>
-			<p>В случае обмена и возврата товара надлежащего качества, в заводской вакуумной упаковке Вы оплачиваете расходы за забор товара курьером (по Киеву - 50 грн., в пригород Киева - оговоренная цена, из регионов Украины - по прайсу компании-перевозчика + 25 грн. по Киеву) и подъем (спуск)   габаритных грузов на (с) этаж(а).</p>
-			<p>Все действия происходят в соответствии с "Законом о защите прав потребителей".</p>
-			<p>В случае если Вы откажетесь от покупки на месте, стоимость доставки ОПЛАЧИВАЕТСЯ (по Киеву - 50 грн., в пригород Киева - оговоренная цена, из регионов Украины - по прайсу компании-перевозчика + 25 грн. по Киеву).</p>
-		</section>
-	</content>
-</div>
-
-
+	<!-- FOOTER -->
 	<footer>
 		<div class="wrapper">
 			<ul class="nav-footer">
-				<li class="nav-footer_item"><a href="#"><img src="img/logo-footer.png"></a></li>
-				<li class="nav-footer_item">
+				<li class="nav-footer_item footer_logo"><a href="#"><img src="img/logo-footer.png"></a></li>
+				<li class="nav-footer_item width_lg">
 					<h5>Матрасы Magniflex</h5>
 					<ul>
 						<li><a href="#">Magniflex Pratico</a></li>
@@ -202,7 +251,7 @@
 						<li><a href="#">Материалы Magniflex</a></li>
 					</ul>
 				</li>
-				<li class="nav-footer_item">
+				<li class="nav-footer_item width_lg tel">
 					<h5>Magniflex в Киеве:</h5>
 					<dl>
 						<dt>Life:</dt>
@@ -216,8 +265,10 @@
 			</ul>
 		</div>
 	</footer>
-	
+	<!-- FOOTER END-->
+
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgL0DPqN8kAL0_C_mojdo3hfjdglGZKqk" type="text/javascript"></script>
 	<script src="js/main.js"></script>
-	</body>
-	</html>
+
+</body>
+</html>
